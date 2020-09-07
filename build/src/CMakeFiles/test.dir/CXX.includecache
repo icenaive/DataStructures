@@ -18,6 +18,14 @@ iostream
 iostream
 -
 
+/root/workstation/code/DataStructures/include/my_queue_with_arr.hpp
+iostream
+-
+
+/root/workstation/code/DataStructures/include/my_stack_with_arr.hpp
+iostream
+-
+
 /root/workstation/code/DataStructures/src/main.cpp
 ../include/my_list.hpp
 /root/workstation/code/DataStructures/include/my_list.hpp
@@ -25,4 +33,8 @@ iostream
 /root/workstation/code/DataStructures/include/my_double_list.hpp
 ../include/my_list_with_arr.hpp
 /root/workstation/code/DataStructures/include/my_list_with_arr.hpp
+../include/my_stack_with_arr.hpp
+/root/workstation/code/DataStructures/include/my_stack_with_arr.hpp
+../include/my_queue_with_arr.hpp
+/root/workstation/code/DataStructures/include/my_queue_with_arr.hpp
 

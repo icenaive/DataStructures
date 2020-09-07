@@ -4,5 +4,7 @@
 src/CMakeFiles/test.dir/main.cpp.o: ../include/my_double_list.hpp
 src/CMakeFiles/test.dir/main.cpp.o: ../include/my_list.hpp
 src/CMakeFiles/test.dir/main.cpp.o: ../include/my_list_with_arr.hpp
+src/CMakeFiles/test.dir/main.cpp.o: ../include/my_queue_with_arr.hpp
+src/CMakeFiles/test.dir/main.cpp.o: ../include/my_stack_with_arr.hpp
 src/CMakeFiles/test.dir/main.cpp.o: ../src/main.cpp
 

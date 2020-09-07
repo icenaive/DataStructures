@@ -8,7 +8,9 @@
 // 缺点：没有解决连续存储分配的表长难以确定的问题;失去了顺序存储结构随机存取的特性
 #ifndef MY_LIST_WITH_ARR_
 #define MY_LIST_WITH_ARR_
-#define MAXN 10000
+#ifndef MAXN
+#define MAXN 1000
+#endif // MAXN
 
 #include <iostream>
 struct MyListArrNode {

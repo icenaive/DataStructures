@@ -1,5 +1,5 @@
-/root/workstation/code/DataStructures/build/CMakeFiles/rebuild_cache.dir
-/root/workstation/code/DataStructures/build/CMakeFiles/edit_cache.dir
-/root/workstation/code/DataStructures/build/src/CMakeFiles/rebuild_cache.dir
-/root/workstation/code/DataStructures/build/src/CMakeFiles/test.dir
-/root/workstation/code/DataStructures/build/src/CMakeFiles/edit_cache.dir
+/home/manjaro/WorkSpace/DataStructures/build/CMakeFiles/rebuild_cache.dir
+/home/manjaro/WorkSpace/DataStructures/build/CMakeFiles/edit_cache.dir
+/home/manjaro/WorkSpace/DataStructures/build/src/CMakeFiles/rebuild_cache.dir
+/home/manjaro/WorkSpace/DataStructures/build/src/CMakeFiles/edit_cache.dir
+/home/manjaro/WorkSpace/DataStructures/build/src/CMakeFiles/test.dir

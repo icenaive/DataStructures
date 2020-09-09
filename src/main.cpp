@@ -9,6 +9,9 @@
 #include "../include/my_list_with_arr.hpp"
 #include "../include/my_stack_with_arr.hpp"
 #include "../include/my_queue_with_arr.hpp"
+#include "../include/my_tree_with_arr.hpp"
+#include "../include/my_tree_with_list.hpp"
+
 using namespace std;
 
 void test_my_list();
@@ -16,6 +19,8 @@ void test_my_double_list();
 void test_my_list_arr();
 void test_my_stack_arr();
 void test_my_queue_arr();
+void test_my_tree_arr();
+void test_my_tree_list();
 
 int main() {
     // 测试链表
@@ -27,7 +32,10 @@ int main() {
     // 测试栈
     /// test_my_stack_arr();
     // 测试队列
-    test_my_queue_arr();
+    // test_my_queue_arr();
+    // 测试树
+    //test_my_tree_arr();
+    test_my_tree_list();
     return 0;
 }
 
@@ -78,7 +86,6 @@ void test_my_list_arr() {
     arr.delete_node(1);
     arr.print_node();
 }
-
 void test_my_stack_arr() {
     MyStackArr s;
     s.push(1);
@@ -88,7 +95,6 @@ void test_my_stack_arr() {
     s.pop();
     cout << s.get_pop() << endl;
 }
-
 void test_my_queue_arr() {
     MyQueueArr q;
     q.push(1);
@@ -98,4 +104,28 @@ void test_my_queue_arr() {
     q.push(3);
     cout << q.pop() << endl;
     cout << q.pop() << endl;
+}
+void test_my_tree_arr() {
+    MyTreeArr t;
+    t.create_tree(0);
+    t.create_tree(1);
+    t.create_tree(3);
+    // 会出现没有双亲节点的节点，这种属于非法节点。
+    // t.create_tree(5);
+    t.pre_order_traverse();
+    t.in_order_traverse();
+    t.post_order_traverse();
+
+    // t.print_tree();
+}
+void test_my_tree_list() {
+    MyTreeList t;
+    cout << t.binary_tree_depth(t.get_head()) << endl;
+    t.pre_order_vis(t.get_head());
+    cout << endl;
+    t.in_order_vis(t.get_head());
+    cout << endl;
+    t.post_order_vis(t.get_head());
+    cout << endl;
+    t.lever_order();
 }

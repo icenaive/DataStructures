@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/workstation/code/DataStructures/src/main.cpp" "/root/workstation/code/DataStructures/build/src/CMakeFiles/test.dir/main.cpp.o"
+  "/home/manjaro/WorkSpace/DataStructures/src/main.cpp" "/home/manjaro/WorkSpace/DataStructures/build/src/CMakeFiles/test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

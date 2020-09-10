@@ -26,6 +26,10 @@ iostream
 iostream
 -
 
+/home/manjaro/WorkSpace/DataStructures/include/my_thread_tree.hpp
+iostream
+-
+
 /home/manjaro/WorkSpace/DataStructures/include/my_tree_with_arr.hpp
 iostream
 -
@@ -57,4 +61,6 @@ queue
 /home/manjaro/WorkSpace/DataStructures/include/my_tree_with_arr.hpp
 ../include/my_tree_with_list.hpp
 /home/manjaro/WorkSpace/DataStructures/include/my_tree_with_list.hpp
+../include/my_thread_tree.hpp
+/home/manjaro/WorkSpace/DataStructures/include/my_thread_tree.hpp
 

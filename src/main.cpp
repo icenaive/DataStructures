@@ -11,6 +11,7 @@
 #include "../include/my_queue_with_arr.hpp"
 #include "../include/my_tree_with_arr.hpp"
 #include "../include/my_tree_with_list.hpp"
+#include "../include/my_thread_tree.hpp"
 
 using namespace std;
 
@@ -21,6 +22,7 @@ void test_my_stack_arr();
 void test_my_queue_arr();
 void test_my_tree_arr();
 void test_my_tree_list();
+void test_my_thread_tree();
 
 int main() {
     // 测试链表
@@ -35,7 +37,8 @@ int main() {
     // test_my_queue_arr();
     // 测试树
     //test_my_tree_arr();
-    test_my_tree_list();
+    // test_my_tree_list();
+    test_my_thread_tree();
     return 0;
 }
 
@@ -128,4 +131,8 @@ void test_my_tree_list() {
     t.post_order_vis(t.get_head());
     cout << endl;
     t.lever_order();
+}
+void test_my_thread_tree() {
+    MyThreadTree t;
+    t.in_order_vis();
 }
